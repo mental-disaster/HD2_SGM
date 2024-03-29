@@ -1,10 +1,10 @@
 from pynput import keyboard
 from pynput.keyboard import Key, Controller
 
-UP = 'w'
-DOWN = 's'
-LEFT = 'a'
-RIGHT = 'd'
+UP = Key.up
+DOWN = Key.down
+LEFT = Key.left
+RIGHT = Key.right
 
 combinations = {
     (Key.ctrl_l, '1'): [UP, DOWN, RIGHT, LEFT, UP],
